@@ -1,0 +1,31 @@
+package scripts;
+
+import org.testng.annotations.Test;
+
+import generic.BaseTest;
+import generic.Excel;
+import page.EnterTimeTrackPage;
+import page.LoginPage;
+
+public class ValidLogin extends BaseTest{
+	@Test(priority=1)
+	public void testValidLogin(){
+//	String un=Excel.getData(XL_PATH, "ValidLogin", 1, 0);
+//	String pw=Excel.getData(XL_PATH, "ValidLogin", 1, 1);
+//	String eTitle=Excel.getData(XL_PATH, "ValidLogin", 1, 2);
+	
+	//Enter username
+	LoginPage l=new LoginPage(driver);
+	l.setName("admin");
+	//Enter password
+	l.setPassword("manager");
+	//click on LoginButton
+	l.clickLogin();
+	//verify that HomePage is Displayed
+	EnterTimeTrackPage e=new EnterTimeTrackPage(driver);
+	e.verifyPageIsDisplayed(driver, "actiTIME-Time Track");
+	
+}
+}
+
+

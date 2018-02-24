@@ -1,0 +1,8 @@
+package page;
+
+import generic.BasePage;
+
+public class HomePage extends BasePage{
+	
+
+}

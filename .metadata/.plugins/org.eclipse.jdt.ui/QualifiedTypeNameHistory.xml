@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.WorkbookFactory"/>
+<fullyQualifiedTypeName name="org.apache.poi.ss.usermodel.Workbook"/>
+<fullyQualifiedTypeName name="java.util.Properties"/>
+<fullyQualifiedTypeName name="java.io.FileInputStream"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
+<fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="org.apache.commons.io.FileUtils"/>
+<fullyQualifiedTypeName name="java.sql.Date"/>
+</qualifiedTypeNameHistroy>
